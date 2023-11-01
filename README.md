@@ -7,6 +7,7 @@
 
 **Nodejs: ^14.4**
 
+
 Step to setup and use project:
 
 1: Run command "cp .env.example .env"
@@ -26,6 +27,7 @@ Step to setup and use project:
 8: Run command "php artisan migrate --seed"
 
 9: Run command "yarn run dev"
+
 
 **Admin credentials:**
 
