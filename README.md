@@ -2,7 +2,9 @@
 Companies management system using VueJS
 
 Laravel: ^10
+
 PHP: ^8.1
+
 Nodejs: ^14.4
 
 Step to setup and use project
@@ -26,5 +28,7 @@ Step to setup and use project
 9: Run command "yarn run dev"
 
 Admin credentials:
+
 Email: admin@admin.com
+
 Password: password
