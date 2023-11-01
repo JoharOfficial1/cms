@@ -1,13 +1,13 @@
 # cms
-Companies management system using VueJS
+**Companies management system using VueJS**
 
-Laravel: ^10
+**Laravel: ^10**
 
-PHP: ^8.1
+**PHP: ^8.1**
 
-Nodejs: ^14.4
+**Nodejs: ^14.4**
 
-Step to setup and use project
+Step to setup and use project:
 
 1: Run command "cp .env.example .env"
 
@@ -27,8 +27,8 @@ Step to setup and use project
 
 9: Run command "yarn run dev"
 
-Admin credentials:
+**Admin credentials:**
 
-Email: admin@admin.com
+**Email:** admin@admin.com
 
-Password: password
+**Password:** password
