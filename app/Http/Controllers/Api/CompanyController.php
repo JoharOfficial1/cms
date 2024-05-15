@@ -47,7 +47,7 @@ class CompanyController extends Controller
         $company->save();
 
         if ($company->id) {
-            Mail::to($request->user())->send(new NewCompanyCreated($company, Auth::user()));
+            Mail::to($company->email)->send(new NewCompanyCreated($company));
 
             $status = true;
             $message = 'Company is created successfully';

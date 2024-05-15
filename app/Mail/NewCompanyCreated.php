@@ -15,12 +15,14 @@ class NewCompanyCreated extends Mailable
 {
     use Queueable, SerializesModels;
 
+    protected $company;
+
     /**
      * Create a new message instance.
      */
-    public function __construct(public $company, public $authUser)
+    public function __construct($company)
     {
-        //
+        $this->company = $company;
     }
 
     /**
@@ -41,8 +43,7 @@ class NewCompanyCreated extends Mailable
         return new Content(
             markdown: 'emails.new-company-created',
             with: [
-                'company' => $this->company,
-                'authUser' => $this->authUser
+                'company' => $this->company
             ]
         );
     }

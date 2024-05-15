@@ -1,9 +1,7 @@
 <x-mail::message>
-# Introduction
+Hello,
 
-Hi,
-
-A new company is created in system with name <b>{{$company->name}}</b> is created by <b>{{$authUser->name}}</b>
+A new company is created for you in companies management system with name <b>{{$company->name}}</b>
 
 Thanks,<br>
 {{ config('app.name') }}
